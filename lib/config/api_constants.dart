@@ -1,5 +1,6 @@
 class ApiConstants {
-  static const String baseUrl = 'http://10.0.2.2:8000/api';
+  static const String baseUrl =
+      'https://fake-job-detector-backend-pzxt.onrender.com/api';
   static const String register = '$baseUrl/auth/register/';
   static const String login = '$baseUrl/auth/login/';
   static const String analyze = '$baseUrl/analyze/';
